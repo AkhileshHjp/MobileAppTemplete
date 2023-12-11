@@ -1,0 +1,29 @@
+<div id="wrapper">
+	<div class="app">
+
+		<div class="bg"></div>
+
+		<form>
+			<header>
+				<img
+					src="../../assets/loginScreen.svg">
+			</header>
+
+			<div class="inputs">
+				<input type="text" name="" placeholder="username or email" #username>
+				<input type="password" name="" placeholder="password">
+
+				<p class="light"><a href="#">Forgot password?</a></p>
+			</div>
+
+		</form>
+
+		<footer>
+			<button (click)="onLogin(username.value)">Continue</button>
+			<p>Don't have an account? <a href="#">Sign Up</a></p>
+		</footer>
+
+
+	</div>
+
+	</div>
